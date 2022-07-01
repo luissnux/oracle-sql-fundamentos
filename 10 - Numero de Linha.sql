@@ -1,0 +1,11 @@
+-- NUMERO DE LINHA
+
+-- PSEUDO COLUNA ROWNUM: RETORNA O NUMERO DE LINHAS EM UM CONJUNTO DE RESULTADOS
+SELECT ROWNUM, id_cliente, nome, sobrenome
+FROM tb_clientes;
+
+-- RECUPERA CLIENTE COM O ID = 3 COM O NUMERO DE LINHA ROWNUM
+SELECT ROWNUM, id_cliente, nome, sobrenome
+FROM tb_clientes
+WHERE id_cliente = 3;
+

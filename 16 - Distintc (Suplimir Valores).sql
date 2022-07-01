@@ -1,0 +1,14 @@
+-- DISTINCT (Suprimir as linas duplicadas)
+
+-- LISTA OS CLIENTE QUE COMPRARM PRODUTOS DE NOSSA LOJA
+
+SELECT id_cliente
+FROM tb_compras;
+
+-- USANDO O DISTINTC PARA NÃO MOSTRAR ITENS DUPLICADOS
+
+SELECT DISTINCT(id_cliente)
+FROM tb_compras;
+
+
+
